@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.up{
+  @apply text-[12px] hover:font-bold hover:bg-gray-100 p-[5px] rounded-md
+}
+
+.btn__nav{
+  @apply text-white font-bold bg-blue-500 p-[10px] rounded-md text-[12px]
+}
+
+.line{
+  @apply border-[1px] mt-[30px] border-black
+}
